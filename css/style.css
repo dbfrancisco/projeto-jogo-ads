@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(120deg, #00bcd4, #3f51b5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  /* Estilos para botões do menu (index.html) */
+  .menu button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #3f51b5;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .menu button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Estilos para inputs (login, cadastro) */
+  form input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Estilos para botões genéricos */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    color: #3f51b5;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Estilo para links */
+  a {
+    color: #ffe;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,32 @@
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .game-card {
+    background-color: #fff;
+    color: #3f51b5;
+    padding: 30px;
+    border-radius: 15px;
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-align: center;
+  }
+  
+  .game-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .submenu {
+    margin-top: 40px;
+  }
+  
+  .submenu button {
+    margin: 10px;
+  }
+  
