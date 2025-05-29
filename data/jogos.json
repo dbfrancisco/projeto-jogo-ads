@@ -1,0 +1,54 @@
+
+{
+  "memoria": {
+    "xadrez": [
+      { "frente": "♘", "verso": "Cavalo" },
+      { "frente": "♕", "verso": "Rainha" }
+    ],
+    "ingles": [
+      { "frente": "Apple", "verso": "Maçã" },
+      { "frente": "Dog", "verso": "Cachorro" }
+    ],
+    "termos": [
+      { "frente": "RAM", "verso": "Memória de acesso aleatório" },
+      { "frente": "CPU", "verso": "Unidade Central de Processamento" }
+    ]
+  },
+  "associacao": {
+    "xadrez": [
+      { "pergunta": "♖", "resposta": "Torre" },
+      { "pergunta": "♗", "resposta": "Bispo" }
+    ],
+    "ingles": [
+      { "pergunta": "Table", "resposta": "Mesa" },
+      { "pergunta": "Chair", "resposta": "Cadeira" }
+    ],
+    "termos": [
+      { "pergunta": "HTML", "resposta": "Linguagem de marcação" },
+      { "pergunta": "CSS", "resposta": "Estilização" }
+    ]
+  },
+  "quiz": {
+    "xadrez": [
+      {
+        "pergunta": "Qual peça se move em L?",
+        "opcoes": ["Torre", "Cavalo", "Bispo"],
+        "resposta": "Cavalo"
+      }
+    ],
+    "ingles": [
+      {
+        "pergunta": "Como se diz 'gato' em inglês?",
+        "opcoes": ["Dog", "Cat", "Mouse"],
+        "resposta": "Cat"
+      }
+    ],
+    "termos": [
+      {
+        "pergunta": "O que significa API?",
+        "opcoes": ["Aplicação Pública", "Interface de Programação de Aplicações", "Área de Projeto Integrado"],
+        "resposta": "Interface de Programação de Aplicações"
+      }
+    ]
+  }
+}

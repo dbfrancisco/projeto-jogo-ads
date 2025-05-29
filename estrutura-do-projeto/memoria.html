@@ -1,0 +1,26 @@
+<!-- memoria.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo da Memória</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Jogo da Memória</h1>
+    <button onclick="carregarJogo('xadrez')">Xadrez</button>
+    <button onclick="carregarJogo('ingles')">Palavras em Inglês</button>
+    <button onclick="carregarJogo('termos')">Termos e Definições</button>
+    <button onclick="window.location.href='game-menu.html'">Voltar ao Menu</button>
+  </div>
+  <script>
+    function carregarJogo(tipo) {
+      alert("Iniciar jogo de memória - tipo: " + tipo);
+    }
+  </script>
+</body>
+</html>
+
+
+
